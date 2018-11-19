@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "alwaysStrict": true,
+        "target": "es2018",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "outDir": "bin",
+        "pretty": true,
+        "watch": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spects"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "rules": {
+        "no-unused-expression": true,
+        "no-duplicate-variable": true,
+        "no-unused-variable": true,
+        "curly": false,
+        "class-name": false,
+        "semicolon": [true, "always", "ignore-bound-class-methods"],
+        "triple-equals": true,
+        "max-line-length": [
+            true, 80
+        ],
+        "space-before-function-paren": [true, {
+            "anonymous": "always",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
+        "indent": [
+            true,
+            "spaces",
+            2
+        ],
+        "switch-default": true,
+        "eofline": true
+    }
+}
